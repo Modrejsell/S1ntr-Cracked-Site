@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>S1ntr - Kontakt</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">S1ntrovo Portfólio</a>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class="bx bx-menu" id="menu-icon"></i>
+            <i class="bx bx-x" id="close-icon"></i>
+        </label>
+        
+        <nav class="navbar">
+            <a href="#" class="button" style="--i:0;" onclick="domu()">Domů</a>
+            <a href="#" class="button" style="--i:2;" onclick="platba()">Platební Metody</a>
+        </nav>
+    </header>
+    <kontakt class="kontakt">
+        <a>Kontakt</a>
+        <text>Pokud mě chcete kontaktovat kvůli informacím</text>
+        <text>nebo cenám nebo kvůli zájmu o webovée stránky</text>
+        <text>tak mě kontaktuje na discord uvedený níže</text>
+        <div class="mujdis"><img src="img/dis.png" width="80" height="50"></div>
+        <mujdisc>s1ntr</mujdisc>
+    </kontakt>
+</body>
+<script>
+    function domu() {
+        window.location.href = "index.html"
+    }
+    function platba() {
+        window.location.href = "platba.html"
+    }
+</script>
+</html>
