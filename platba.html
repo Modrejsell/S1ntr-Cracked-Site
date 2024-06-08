@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>S1ntr - Platební Metody</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">S1ntrovo Portfólio</a>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class="bx bx-menu" id="menu-icon"></i>
+            <i class="bx bx-x" id="close-icon"></i>
+        </label>
+        
+        <nav class="navbar">
+            <a href="#" class="button" style="--i:0;" onclick="domu()">Domů</a>
+            <a href="#" class="button" style="--i:2;" onclick="kontaktuj()">Kontakt</a>
+        </nav>
+    </header>
+    <platis class="platis">
+        <a>Platby</a>
+        <platba>Cena stránky se odvijí od těžkosti</platba>
+        <platba>většinou se domluvíme v soukromích</platba>
+        <platba>zprávách na disocrdu, který nalezneš</platba>
+        <platba>v sekci kontakt.</platba3>
+        <div class="paypal"><img src="img/pp.png" width="120" height="30"></div>
+    </platis>
+</body>
+<script>
+    function domu() {
+        window.location.href = "index.html"
+    }
+    function kontaktuj() {
+        window.location.href = "kontakt.html"
+    }
+</script>
+</html>
