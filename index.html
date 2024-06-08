@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>S1ntr - Portfólio</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">S1ntrovo Portfólio</a>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class="bx bx-menu" id="menu-icon"></i>
+            <i class="bx bx-x" id="close-icon"></i>
+        </label>
+        
+        <nav class="navbar">
+            <a href="#" class="button" style="--i:1;" onclick="patbla()">Platební Metody</a>
+            <a href="#" class="button" style="--i:2;" onclick="kontaktuj()">Kontakt</a>
+        </nav>
+    </header>
+    <informace class="informace">
+        <img src="img/s1ntrk.png" class="fotka">
+        <a>S1ntr</a>
+        <text>Webový Developer</text>
+    </informace>
+    <info class="info">
+        <a>O mě</a>
+        <text>Zdravím ja jsem S1ntr. Jsem Web Developer, vytvářím</text>
+        <text>webové stránky. Dělám webové stránky od roku 2022</text>
+    </info>
+    <proc class="proc">
+        <a>Proč volit mě?</a>
+        <div class="proto-container">
+            <proto>Kvalitní Práce</proto>
+            <proto>Levné Ceny</proto>
+            <proto>Zkušenosti</proto>
+        </div>
+    </proc>
+    <zkusenosti class="zkusenosti">
+        <a>Zkušenosti</a>
+        <icons>
+            <i class='bx bxs-file-html'></i>
+            <i class='bx bxs-file-css' ></i>
+            <i class='bx bxl-javascript' ></i>
+            <i class='bx bxl-typescript'></i>
+            <i class='bx bxl-angular'></i>
+            <i class='bx bxl-python' ></i>
+        </icons>
+    </zkusenosti>
+</body>
+<script>
+    function patbla() {
+        window.location.href = "platba.html"
+    }
+    function kontaktuj() {
+        window.location.href = "kontakt.html"
+    }
+</script>
+</html>
